@@ -46,7 +46,7 @@
             // pb_Migue
             // 
             this.pb_Migue.Image = ((System.Drawing.Image)(resources.GetObject("pb_Migue.Image")));
-            this.pb_Migue.Location = new System.Drawing.Point(597, 319);
+            this.pb_Migue.Location = new System.Drawing.Point(304, 179);
             this.pb_Migue.Name = "pb_Migue";
             this.pb_Migue.Size = new System.Drawing.Size(191, 119);
             this.pb_Migue.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
