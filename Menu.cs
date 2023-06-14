@@ -16,5 +16,10 @@ namespace HolaMundoGit
         {
             InitializeComponent();
         }
+
+        private void pb_Migue_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("El mejor central del mundo", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }
