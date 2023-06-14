@@ -28,11 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.pb_migue = new System.Windows.Forms.PictureBox();
+            this.pb_Juan = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pb_migue)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Juan)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -68,17 +71,29 @@
             this.pb_migue.TabIndex = 2;
             this.pb_migue.TabStop = false;
             // 
+            // pb_Juan
+            // 
+            this.pb_Juan.Image = ((System.Drawing.Image)(resources.GetObject("pb_Juan.Image")));
+            this.pb_Juan.Location = new System.Drawing.Point(627, 186);
+            this.pb_Juan.Name = "pb_Juan";
+            this.pb_Juan.Size = new System.Drawing.Size(160, 140);
+            this.pb_Juan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_Juan.TabIndex = 3;
+            this.pb_Juan.TabStop = false;
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pb_Juan);
             this.Controls.Add(this.pb_migue);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "Menu";
             this.Text = "Menu Hola Mundo GIT";
             ((System.ComponentModel.ISupportInitialize)(this.pb_migue)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Juan)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -89,6 +104,7 @@
         private System.Windows.Forms.Button button2;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.PictureBox pb_migue;
+        private System.Windows.Forms.PictureBox pb_Juan;
     }
 }
 
