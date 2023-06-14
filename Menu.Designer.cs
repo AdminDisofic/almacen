@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
@@ -61,7 +60,7 @@
             // 
             // pb_migue
             // 
-            this.pb_migue.Image = ((System.Drawing.Image)(resources.GetObject("pb_migue.Image")));
+            this.pb_migue.Image = global::HolaMundoGit.Properties.Resources.Migue;
             this.pb_migue.Location = new System.Drawing.Point(633, 339);
             this.pb_migue.Name = "pb_migue";
             this.pb_migue.Size = new System.Drawing.Size(155, 99);
