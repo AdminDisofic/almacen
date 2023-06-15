@@ -16,5 +16,10 @@ namespace HolaMundoGit
         {
             InitializeComponent();
         }
+
+        private void btn_Cris_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Cristina ha estado aquí");
+        }
     }
 }
