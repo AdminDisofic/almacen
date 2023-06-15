@@ -23,5 +23,10 @@ namespace HolaMundoGit
         {
             MessageBox.Show("Dani ha estado aquí");
         }
+
+        private void btn_Migue_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Migue ha estado aquí", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }
