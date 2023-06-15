@@ -16,5 +16,12 @@ namespace HolaMundoGit
         {
             InitializeComponent();
         }
+
+     
+
+        private void btn_Dani_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Dani ha estado aquí");
+        }
     }
 }
