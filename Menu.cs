@@ -40,5 +40,10 @@ namespace HolaMundoGit
         {
             MessageBox.Show("Que foto más bonita!");
         }
+
+        private void pb_Migue_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Que coche mas bonito", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }
