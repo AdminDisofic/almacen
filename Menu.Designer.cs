@@ -35,7 +35,7 @@
             // 
             // btn_Dani
             // 
-            this.btn_Dani.Location = new System.Drawing.Point(681, 14);
+            this.btn_Dani.Location = new System.Drawing.Point(681, 79);
             this.btn_Dani.Name = "btn_Dani";
             this.btn_Dani.Size = new System.Drawing.Size(115, 74);
             this.btn_Dani.TabIndex = 0;
