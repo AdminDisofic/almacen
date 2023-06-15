@@ -30,6 +30,7 @@
         {
             this.btn_Dani = new System.Windows.Forms.Button();
             this.btn_Migue = new System.Windows.Forms.Button();
+            this.btn_Juan = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_Dani
@@ -54,11 +55,22 @@
             this.btn_Migue.UseVisualStyleBackColor = false;
             this.btn_Migue.Click += new System.EventHandler(this.btn_Migue_Click);
             // 
+            // btn_Juan
+            // 
+            this.btn_Juan.Location = new System.Drawing.Point(681, 202);
+            this.btn_Juan.Name = "btn_Juan";
+            this.btn_Juan.Size = new System.Drawing.Size(114, 63);
+            this.btn_Juan.TabIndex = 2;
+            this.btn_Juan.Text = "Juan";
+            this.btn_Juan.UseVisualStyleBackColor = true;
+            this.btn_Juan.Click += new System.EventHandler(this.btn_Juan_Click);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn_Juan);
             this.Controls.Add(this.btn_Migue);
             this.Controls.Add(this.btn_Dani);
             this.Name = "Menu";
@@ -71,6 +83,7 @@
 
         private System.Windows.Forms.Button btn_Dani;
         private System.Windows.Forms.Button btn_Migue;
+        private System.Windows.Forms.Button btn_Juan;
     }
 }
 
