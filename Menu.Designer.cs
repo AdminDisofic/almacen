@@ -31,6 +31,8 @@
             this.btn_Dani = new System.Windows.Forms.Button();
             this.btn_Migue = new System.Windows.Forms.Button();
             this.btn_Juan = new System.Windows.Forms.Button();
+            this.pb_dani = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_dani)).BeginInit();
             this.SuspendLayout();
             // 
             // btn_Dani
@@ -65,16 +67,29 @@
             this.btn_Juan.UseVisualStyleBackColor = true;
             this.btn_Juan.Click += new System.EventHandler(this.btn_Juan_Click);
             // 
+            // pb_dani
+            // 
+            this.pb_dani.Image = global::HolaMundoGit.Properties.Resources.f117a045ea34b155d48ad62e8dee963c;
+            this.pb_dani.Location = new System.Drawing.Point(540, 285);
+            this.pb_dani.Name = "pb_dani";
+            this.pb_dani.Size = new System.Drawing.Size(124, 74);
+            this.pb_dani.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_dani.TabIndex = 3;
+            this.pb_dani.TabStop = false;
+            this.pb_dani.Click += new System.EventHandler(this.pb_dani_Click);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pb_dani);
             this.Controls.Add(this.btn_Juan);
             this.Controls.Add(this.btn_Migue);
             this.Controls.Add(this.btn_Dani);
             this.Name = "Menu";
             this.Text = "Menu Hola Mundo GIT";
+            ((System.ComponentModel.ISupportInitialize)(this.pb_dani)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -84,6 +99,7 @@
         private System.Windows.Forms.Button btn_Dani;
         private System.Windows.Forms.Button btn_Migue;
         private System.Windows.Forms.Button btn_Juan;
+        private System.Windows.Forms.PictureBox pb_dani;
     }
 }
 
