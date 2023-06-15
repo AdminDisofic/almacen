@@ -34,5 +34,11 @@ namespace HolaMundoGit
 
             MessageBox.Show("Juan ha estado aquí");
         }
+
+       
+        private void pb_dani_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Que foto más bonita!");
+        }
     }
 }
