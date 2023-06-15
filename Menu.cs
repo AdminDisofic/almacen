@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace HolaMundoGit
 {
-    public partial class Menu : Form
+    public partial class pb_Juan : Form
     {
-        public Menu()
+        public pb_Juan()
         {
             InitializeComponent();
         }
@@ -44,6 +44,11 @@ namespace HolaMundoGit
         private void pb_Migue_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Que coche mas bonito", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Que foto más bonita");
         }
     }
 }

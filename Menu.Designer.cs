@@ -1,6 +1,6 @@
 ﻿namespace HolaMundoGit
 {
-    partial class Menu
+    partial class pb_Juan
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -28,13 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(pb_Juan));
             this.btn_Dani = new System.Windows.Forms.Button();
             this.btn_Migue = new System.Windows.Forms.Button();
             this.btn_Juan = new System.Windows.Forms.Button();
             this.pb_Migue = new System.Windows.Forms.PictureBox();
             this.pb_dani = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Migue)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_dani)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btn_Dani
@@ -91,20 +94,33 @@
             this.pb_dani.TabStop = false;
             this.pb_dani.Click += new System.EventHandler(this.pb_dani_Click);
             // 
-            // Menu
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(533, 170);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(147, 94);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // pb_Juan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pb_Migue);
             this.Controls.Add(this.pb_dani);
             this.Controls.Add(this.btn_Juan);
             this.Controls.Add(this.btn_Migue);
             this.Controls.Add(this.btn_Dani);
-            this.Name = "Menu";
+            this.Name = "pb_Juan";
             this.Text = "Menu Hola Mundo GIT";
             ((System.ComponentModel.ISupportInitialize)(this.pb_Migue)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_dani)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -116,6 +132,7 @@
         private System.Windows.Forms.Button btn_Juan;
         private System.Windows.Forms.PictureBox pb_dani;
         private System.Windows.Forms.PictureBox pb_Migue;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
