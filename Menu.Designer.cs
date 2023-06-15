@@ -2,7 +2,6 @@
 {
     partial class Menu
     {
-        //Kiko ha estado Aquí FASTIDIANDO
         /// <summary>
         /// Variable del diseñador necesaria.
         /// </summary>
