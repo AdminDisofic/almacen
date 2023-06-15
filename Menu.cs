@@ -21,5 +21,10 @@ namespace HolaMundoGit
         {
             MessageBox.Show("Hola desde Botón de Kiko");
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Otro botón");
+        }
     }
 }
