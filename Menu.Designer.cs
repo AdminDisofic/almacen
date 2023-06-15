@@ -33,7 +33,7 @@
             // 
             // btn_Cris
             // 
-            this.btn_Cris.Location = new System.Drawing.Point(49, 322);
+            this.btn_Cris.Location = new System.Drawing.Point(309, 71);
             this.btn_Cris.Name = "btn_Cris";
             this.btn_Cris.Size = new System.Drawing.Size(163, 90);
             this.btn_Cris.TabIndex = 0;

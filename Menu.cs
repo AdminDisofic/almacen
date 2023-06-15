@@ -12,7 +12,7 @@ namespace HolaMundoGit
 {
     public partial class Menu : Form
     {
-        //comentario
+        //comentario button
         public Menu()
         {
             InitializeComponent();
