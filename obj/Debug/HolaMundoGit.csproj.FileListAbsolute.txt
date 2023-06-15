@@ -3,9 +3,9 @@ C:\Users\migue\Desktop\Disofic\HolaMundoGit\bin\Debug\HolaMundoGit.exe
 C:\Users\migue\Desktop\Disofic\HolaMundoGit\bin\Debug\HolaMundoGit.pdb
 C:\Users\migue\Desktop\Disofic\HolaMundoGit\obj\Debug\HolaMundoGit.csproj.AssemblyReference.cache
 C:\Users\migue\Desktop\Disofic\HolaMundoGit\obj\Debug\HolaMundoGit.csproj.SuggestedBindingRedirects.cache
-C:\Users\migue\Desktop\Disofic\HolaMundoGit\obj\Debug\HolaMundoGit.Menu.resources
 C:\Users\migue\Desktop\Disofic\HolaMundoGit\obj\Debug\HolaMundoGit.Properties.Resources.resources
 C:\Users\migue\Desktop\Disofic\HolaMundoGit\obj\Debug\HolaMundoGit.csproj.GenerateResource.cache
 C:\Users\migue\Desktop\Disofic\HolaMundoGit\obj\Debug\HolaMundoGit.csproj.CoreCompileInputs.cache
 C:\Users\migue\Desktop\Disofic\HolaMundoGit\obj\Debug\HolaMundoGit.exe
 C:\Users\migue\Desktop\Disofic\HolaMundoGit\obj\Debug\HolaMundoGit.pdb
+C:\Users\migue\Desktop\Disofic\HolaMundoGit\obj\Debug\HolaMundoGit.pb_Juan.resources

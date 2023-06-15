@@ -32,12 +32,12 @@
             this.btn_Dani = new System.Windows.Forms.Button();
             this.btn_Migue = new System.Windows.Forms.Button();
             this.btn_Juan = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pb_Migue = new System.Windows.Forms.PictureBox();
             this.pb_dani = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Migue)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_dani)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btn_Dani
@@ -72,8 +72,22 @@
             this.btn_Juan.UseVisualStyleBackColor = true;
             this.btn_Juan.Click += new System.EventHandler(this.btn_Juan_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(533, 170);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(147, 94);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // pb_Migue
             // 
+            this.pb_Migue.BackColor = System.Drawing.Color.Blue;
+            this.pb_Migue.BackgroundImage = global::HolaMundoGit.Properties.Resources.Skylinne;
+            this.pb_Migue.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pb_Migue.Image = global::HolaMundoGit.Properties.Resources.Skylinne;
             this.pb_Migue.Location = new System.Drawing.Point(540, 376);
             this.pb_Migue.Name = "pb_Migue";
@@ -94,17 +108,6 @@
             this.pb_dani.TabStop = false;
             this.pb_dani.Click += new System.EventHandler(this.pb_dani_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(533, 170);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(147, 94);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // pb_Juan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -118,9 +121,9 @@
             this.Controls.Add(this.btn_Dani);
             this.Name = "pb_Juan";
             this.Text = "Menu Hola Mundo GIT";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Migue)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_dani)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
