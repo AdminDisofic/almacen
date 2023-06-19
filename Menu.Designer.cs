@@ -32,6 +32,7 @@
             this.btn_Migue = new System.Windows.Forms.Button();
             this.btn_Dani = new System.Windows.Forms.Button();
             this.btn_Juan = new System.Windows.Forms.Button();
+            this.button_Esperanza = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_Migue
@@ -49,7 +50,7 @@
             // btn_Dani
             // 
             this.btn_Dani.Location = new System.Drawing.Point(330, 215);
-            this.btn_Dani.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_Dani.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Dani.Name = "btn_Dani";
             this.btn_Dani.Size = new System.Drawing.Size(128, 63);
             this.btn_Dani.TabIndex = 1;
@@ -67,11 +68,22 @@
             this.btn_Juan.UseVisualStyleBackColor = true;
             this.btn_Juan.Click += new System.EventHandler(this.btn_Juan_Click);
             // 
+            // button_Esperanza
+            // 
+            this.button_Esperanza.Location = new System.Drawing.Point(614, 165);
+            this.button_Esperanza.Name = "button_Esperanza";
+            this.button_Esperanza.Size = new System.Drawing.Size(119, 54);
+            this.button_Esperanza.TabIndex = 3;
+            this.button_Esperanza.Text = "Esperanza";
+            this.button_Esperanza.UseVisualStyleBackColor = true;
+            this.button_Esperanza.Click += new System.EventHandler(this.button_Esperanza_Click);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button_Esperanza);
             this.Controls.Add(this.btn_Juan);
             this.Controls.Add(this.btn_Dani);
             this.Controls.Add(this.btn_Migue);
@@ -86,6 +98,7 @@
         private System.Windows.Forms.Button btn_Migue;
         private System.Windows.Forms.Button btn_Dani;
         private System.Windows.Forms.Button btn_Juan;
+        private System.Windows.Forms.Button button_Esperanza;
     }
 }
 
