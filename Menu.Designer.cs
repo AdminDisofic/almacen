@@ -33,6 +33,7 @@
             this.btn_Dani = new System.Windows.Forms.Button();
             this.btn_Juan = new System.Windows.Forms.Button();
             this.button_Esperanza = new System.Windows.Forms.Button();
+            this.btn_Cris = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_Migue
@@ -78,11 +79,23 @@
             this.button_Esperanza.UseVisualStyleBackColor = true;
             this.button_Esperanza.Click += new System.EventHandler(this.button_Esperanza_Click);
             // 
+            // btn_Cris
+            // 
+            this.btn_Cris.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btn_Cris.Location = new System.Drawing.Point(42, 70);
+            this.btn_Cris.Name = "btn_Cris";
+            this.btn_Cris.Size = new System.Drawing.Size(141, 61);
+            this.btn_Cris.TabIndex = 4;
+            this.btn_Cris.Text = "Cristi";
+            this.btn_Cris.UseVisualStyleBackColor = false;
+            this.btn_Cris.Click += new System.EventHandler(this.btn_Cris_Click);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn_Cris);
             this.Controls.Add(this.button_Esperanza);
             this.Controls.Add(this.btn_Juan);
             this.Controls.Add(this.btn_Dani);
@@ -99,6 +112,7 @@
         private System.Windows.Forms.Button btn_Dani;
         private System.Windows.Forms.Button btn_Juan;
         private System.Windows.Forms.Button button_Esperanza;
+        private System.Windows.Forms.Button btn_Cris;
     }
 }
 
