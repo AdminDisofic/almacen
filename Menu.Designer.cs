@@ -31,16 +31,16 @@
         {
             this.btn_Migue = new System.Windows.Forms.Button();
             this.btn_Dani = new System.Windows.Forms.Button();
+            this.btn_Juan = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_Migue
             // 
             this.btn_Migue.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btn_Migue.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Migue.Location = new System.Drawing.Point(908, 481);
-            this.btn_Migue.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_Migue.Location = new System.Drawing.Point(681, 391);
             this.btn_Migue.Name = "btn_Migue";
-            this.btn_Migue.Size = new System.Drawing.Size(143, 58);
+            this.btn_Migue.Size = new System.Drawing.Size(107, 47);
             this.btn_Migue.TabIndex = 0;
             this.btn_Migue.Text = "Migue";
             this.btn_Migue.UseVisualStyleBackColor = false;
@@ -48,22 +48,33 @@
             // 
             // btn_Dani
             // 
-            this.btn_Dani.Location = new System.Drawing.Point(440, 265);
+            this.btn_Dani.Location = new System.Drawing.Point(330, 215);
+            this.btn_Dani.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_Dani.Name = "btn_Dani";
-            this.btn_Dani.Size = new System.Drawing.Size(170, 77);
+            this.btn_Dani.Size = new System.Drawing.Size(128, 63);
             this.btn_Dani.TabIndex = 1;
             this.btn_Dani.Text = "Dani";
             this.btn_Dani.UseVisualStyleBackColor = true;
             this.btn_Dani.Click += new System.EventHandler(this.btn_Dani_Click);
             // 
+            // btn_Juan
+            // 
+            this.btn_Juan.Location = new System.Drawing.Point(684, 320);
+            this.btn_Juan.Name = "btn_Juan";
+            this.btn_Juan.Size = new System.Drawing.Size(103, 51);
+            this.btn_Juan.TabIndex = 2;
+            this.btn_Juan.Text = "Juan";
+            this.btn_Juan.UseVisualStyleBackColor = true;
+            this.btn_Juan.Click += new System.EventHandler(this.btn_Juan_Click);
+            // 
             // Menu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn_Juan);
             this.Controls.Add(this.btn_Dani);
             this.Controls.Add(this.btn_Migue);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Menu";
             this.Text = "Menu Hola Mundo GIT";
             this.ResumeLayout(false);
@@ -74,6 +85,7 @@
 
         private System.Windows.Forms.Button btn_Migue;
         private System.Windows.Forms.Button btn_Dani;
+        private System.Windows.Forms.Button btn_Juan;
     }
 }
 
