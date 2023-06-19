@@ -51,5 +51,10 @@ namespace HolaMundoGit
         {
             MessageBox.Show("¡Enhorabuena! Acabas de pulsar sobre el botón de Gonzalo", "Congratulations", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
         }
+
+        private void btnLorenzo_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Me llamo Bond, James Bond", "Congratulations", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+        }
     }
 }
