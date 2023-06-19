@@ -21,5 +21,10 @@ namespace HolaMundoGit
         {
             MessageBox.Show("Hola soy Migue", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void btn_Dani_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("¡Enhorabuena! Acabas de pulsar sobre el botón de Dani", "Congratulations", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+        }
     }
 }
