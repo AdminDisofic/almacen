@@ -34,6 +34,7 @@
             this.btn_Juan = new System.Windows.Forms.Button();
             this.button_Esperanza = new System.Windows.Forms.Button();
             this.btn_Cris = new System.Windows.Forms.Button();
+            this.btnGonzalo = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_Migue
@@ -90,11 +91,23 @@
             this.btn_Cris.UseVisualStyleBackColor = false;
             this.btn_Cris.Click += new System.EventHandler(this.btn_Cris_Click);
             // 
+            // btnGonzalo
+            // 
+            this.btnGonzalo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btnGonzalo.Location = new System.Drawing.Point(330, 12);
+            this.btnGonzalo.Name = "btnGonzalo";
+            this.btnGonzalo.Size = new System.Drawing.Size(128, 55);
+            this.btnGonzalo.TabIndex = 5;
+            this.btnGonzalo.Text = "Gonzalo";
+            this.btnGonzalo.UseVisualStyleBackColor = false;
+            this.btnGonzalo.Click += new System.EventHandler(this.btnGonzalo_Click);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnGonzalo);
             this.Controls.Add(this.btn_Cris);
             this.Controls.Add(this.button_Esperanza);
             this.Controls.Add(this.btn_Juan);
@@ -102,6 +115,7 @@
             this.Controls.Add(this.btn_Migue);
             this.Name = "Menu";
             this.Text = "Menu Hola Mundo GIT";
+            this.Load += new System.EventHandler(this.Menu_Load);
             this.ResumeLayout(false);
 
         }
@@ -113,6 +127,7 @@
         private System.Windows.Forms.Button btn_Juan;
         private System.Windows.Forms.Button button_Esperanza;
         private System.Windows.Forms.Button btn_Cris;
+        private System.Windows.Forms.Button btnGonzalo;
     }
 }
 

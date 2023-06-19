@@ -41,5 +41,15 @@ namespace HolaMundoGit
         {
             MessageBox.Show("Hola soy Cristina", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void Menu_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnGonzalo_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("¡Enhorabuena! Acabas de pulsar sobre el botón de Gonzalo", "Congratulations", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+        }
     }
 }
