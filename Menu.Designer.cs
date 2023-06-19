@@ -29,37 +29,64 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btn_Migue = new System.Windows.Forms.Button();
+            this.btn_Dani = new System.Windows.Forms.Button();
+            this.btn_Juan = new System.Windows.Forms.Button();
+            this.button_Esperanza = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // btn_Migue
             // 
-            this.button1.Location = new System.Drawing.Point(32, 48);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(182, 86);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Kiko";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btn_Migue.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn_Migue.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Migue.Location = new System.Drawing.Point(681, 391);
+            this.btn_Migue.Name = "btn_Migue";
+            this.btn_Migue.Size = new System.Drawing.Size(107, 47);
+            this.btn_Migue.TabIndex = 0;
+            this.btn_Migue.Text = "Migue";
+            this.btn_Migue.UseVisualStyleBackColor = false;
+            this.btn_Migue.Click += new System.EventHandler(this.btn_Migue_Click);
             // 
-            // button2
+            // btn_Dani
             // 
-            this.button2.Location = new System.Drawing.Point(253, 48);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(159, 85);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Kiko 2";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btn_Dani.Location = new System.Drawing.Point(330, 215);
+            this.btn_Dani.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_Dani.Name = "btn_Dani";
+            this.btn_Dani.Size = new System.Drawing.Size(128, 63);
+            this.btn_Dani.TabIndex = 1;
+            this.btn_Dani.Text = "Dani";
+            this.btn_Dani.UseVisualStyleBackColor = true;
+            this.btn_Dani.Click += new System.EventHandler(this.btn_Dani_Click);
+            // 
+            // btn_Juan
+            // 
+            this.btn_Juan.Location = new System.Drawing.Point(684, 320);
+            this.btn_Juan.Name = "btn_Juan";
+            this.btn_Juan.Size = new System.Drawing.Size(103, 51);
+            this.btn_Juan.TabIndex = 2;
+            this.btn_Juan.Text = "Juan";
+            this.btn_Juan.UseVisualStyleBackColor = true;
+            this.btn_Juan.Click += new System.EventHandler(this.btn_Juan_Click);
+            // 
+            // button_Esperanza
+            // 
+            this.button_Esperanza.Location = new System.Drawing.Point(614, 165);
+            this.button_Esperanza.Name = "button_Esperanza";
+            this.button_Esperanza.Size = new System.Drawing.Size(119, 54);
+            this.button_Esperanza.TabIndex = 3;
+            this.button_Esperanza.Text = "Esperanza";
+            this.button_Esperanza.UseVisualStyleBackColor = true;
+            this.button_Esperanza.Click += new System.EventHandler(this.button_Esperanza_Click);
             // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.button_Esperanza);
+            this.Controls.Add(this.btn_Juan);
+            this.Controls.Add(this.btn_Dani);
+            this.Controls.Add(this.btn_Migue);
             this.Name = "Menu";
             this.Text = "Menu Hola Mundo GIT";
             this.ResumeLayout(false);
@@ -68,8 +95,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn_Migue;
+        private System.Windows.Forms.Button btn_Dani;
+        private System.Windows.Forms.Button btn_Juan;
+        private System.Windows.Forms.Button button_Esperanza;
     }
 }
 

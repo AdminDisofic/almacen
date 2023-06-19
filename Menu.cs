@@ -17,14 +17,24 @@ namespace HolaMundoGit
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btn_Migue_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hola desde Botón de Kiko");
+            MessageBox.Show("Hola soy Migue", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btn_Dani_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Otro botón");
+            MessageBox.Show("¡Enhorabuena! Acabas de pulsar sobre el botón de Dani", "Congratulations", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+        }
+
+        private void btn_Juan_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hola soy Juan", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void button_Esperanza_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hola soy Esperanza", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
