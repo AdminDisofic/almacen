@@ -31,5 +31,10 @@ namespace HolaMundoGit
         {
             MessageBox.Show("Hola soy Juan", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void button_Esperanza_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hola soy Esperanza", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }
