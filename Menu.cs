@@ -54,7 +54,7 @@ namespace HolaMundoGit
 
         private void btnLorenzo_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Me llamo Bond, James Bond", "Congratulations", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            MessageBox.Show("Bond, James Bond", "Congratulations", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
         }
     }
 }
