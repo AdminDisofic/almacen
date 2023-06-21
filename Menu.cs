@@ -34,7 +34,8 @@ namespace HolaMundoGit
 
         private void button_Esperanza_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hola soy Esperanza", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            Form_Esperanza form2 = new Form_Esperanza();
+            form2.Show();
         }
 
         private void btn_Cris_Click(object sender, EventArgs e)

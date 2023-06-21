@@ -1,0 +1,12 @@
+C:\Users\Cursos\Documents\HolaMundo\bin\Debug\HolaMundoGit.exe.config
+C:\Users\Cursos\Documents\HolaMundo\bin\Debug\HolaMundoGit.exe
+C:\Users\Cursos\Documents\HolaMundo\bin\Debug\HolaMundoGit.pdb
+C:\Users\Cursos\Documents\HolaMundo\obj\Debug\HolaMundoGit.csproj.AssemblyReference.cache
+C:\Users\Cursos\Documents\HolaMundo\obj\Debug\HolaMundoGit.csproj.SuggestedBindingRedirects.cache
+C:\Users\Cursos\Documents\HolaMundo\obj\Debug\HolaMundoGit.Form_Esperanza.resources
+C:\Users\Cursos\Documents\HolaMundo\obj\Debug\HolaMundoGit.Menu.resources
+C:\Users\Cursos\Documents\HolaMundo\obj\Debug\HolaMundoGit.Properties.Resources.resources
+C:\Users\Cursos\Documents\HolaMundo\obj\Debug\HolaMundoGit.csproj.GenerateResource.cache
+C:\Users\Cursos\Documents\HolaMundo\obj\Debug\HolaMundoGit.csproj.CoreCompileInputs.cache
+C:\Users\Cursos\Documents\HolaMundo\obj\Debug\HolaMundoGit.exe
+C:\Users\Cursos\Documents\HolaMundo\obj\Debug\HolaMundoGit.pdb
