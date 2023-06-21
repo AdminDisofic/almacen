@@ -46,9 +46,9 @@ namespace HolaMundoGit
 
         private void btn_Cris_Click(object sender, EventArgs e)
         {
-            form_Cristi form_Cristi = new form_Cristi(); 
+            /*form_Cristi form_Cristi = new form_Cristi(); 
             form_Cristi.Show();
-            this.Hide();
+            this.Hide();*/
         }
 
         private void Menu_Load(object sender, EventArgs e)
@@ -59,6 +59,13 @@ namespace HolaMundoGit
         private void btnGonzalo_Click(object sender, EventArgs e)
         {
             MessageBox.Show("¡Enhorabuena! Acabas de pulsar sobre el botón de Gonzalo", "Congratulations", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+        }
+
+        private void btn_Maryure_Click(object sender, EventArgs e)
+        {
+            Form_Maryure  frm_Maryure = new Form_Maryure();
+            frm_Maryure.Show();
+            this.Hide();
         }
     }
 }
