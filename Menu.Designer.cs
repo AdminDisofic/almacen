@@ -72,12 +72,13 @@
             // 
             // button_Esperanza
             // 
+            this.button_Esperanza.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.button_Esperanza.Location = new System.Drawing.Point(614, 165);
             this.button_Esperanza.Name = "button_Esperanza";
             this.button_Esperanza.Size = new System.Drawing.Size(119, 54);
             this.button_Esperanza.TabIndex = 3;
             this.button_Esperanza.Text = "Esperanza";
-            this.button_Esperanza.UseVisualStyleBackColor = true;
+            this.button_Esperanza.UseVisualStyleBackColor = false;
             this.button_Esperanza.Click += new System.EventHandler(this.button_Esperanza_Click);
             // 
             // btn_Cris
