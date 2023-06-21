@@ -60,6 +60,12 @@
     <Compile Include="VentanaDani.Designer.cs">
       <DependentUpon>VentanaDani.cs</DependentUpon>
     </Compile>
+    <Compile Include="VentanaMigue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaMigue.Designer.cs">
+      <DependentUpon>VentanaMigue.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
@@ -74,6 +80,9 @@
     </Compile>
     <EmbeddedResource Include="VentanaDani.resx">
       <DependentUpon>VentanaDani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaMigue.resx">
+      <DependentUpon>VentanaMigue.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
