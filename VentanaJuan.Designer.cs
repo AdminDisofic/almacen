@@ -35,7 +35,7 @@
             // 
             this.lbl_formularioJuan.AutoSize = true;
             this.lbl_formularioJuan.Font = new System.Drawing.Font("Microsoft Sans Serif", 45F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_formularioJuan.Location = new System.Drawing.Point(77, 59);
+            this.lbl_formularioJuan.Location = new System.Drawing.Point(72, 150);
             this.lbl_formularioJuan.Name = "lbl_formularioJuan";
             this.lbl_formularioJuan.Size = new System.Drawing.Size(646, 69);
             this.lbl_formularioJuan.TabIndex = 0;
