@@ -33,7 +33,9 @@ namespace HolaMundoGit
 
         private void btn_Juan_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hola soy Juan", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            VentanaJuan Juan = new VentanaJuan();
+            Juan.Show();
+            this.Hide();
         }
 
         private void button_Esperanza_Click(object sender, EventArgs e)
