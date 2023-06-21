@@ -33,6 +33,7 @@
             this.btn_Dani = new System.Windows.Forms.Button();
             this.btn_Juan = new System.Windows.Forms.Button();
             this.button_Esperanza = new System.Windows.Forms.Button();
+            this.btnPako = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_Migue
@@ -78,11 +79,22 @@
             this.button_Esperanza.UseVisualStyleBackColor = true;
             this.button_Esperanza.Click += new System.EventHandler(this.button_Esperanza_Click);
             // 
+            // btnPako
+            // 
+            this.btnPako.Location = new System.Drawing.Point(39, 404);
+            this.btnPako.Name = "btnPako";
+            this.btnPako.Size = new System.Drawing.Size(75, 23);
+            this.btnPako.TabIndex = 4;
+            this.btnPako.Text = "Pako";
+            this.btnPako.UseVisualStyleBackColor = true;
+            this.btnPako.Click += new System.EventHandler(this.btnPako_Click);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnPako);
             this.Controls.Add(this.button_Esperanza);
             this.Controls.Add(this.btn_Juan);
             this.Controls.Add(this.btn_Dani);
@@ -99,6 +111,7 @@
         private System.Windows.Forms.Button btn_Dani;
         private System.Windows.Forms.Button btn_Juan;
         private System.Windows.Forms.Button button_Esperanza;
+        private System.Windows.Forms.Button btnPako;
     }
 }
 
