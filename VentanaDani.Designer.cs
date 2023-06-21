@@ -63,6 +63,7 @@
             this.Controls.Add(this.lbl_dani);
             this.Name = "VentanaDani";
             this.Text = "VentanaDani";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.VentanaDani_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

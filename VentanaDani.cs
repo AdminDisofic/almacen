@@ -21,5 +21,10 @@ namespace HolaMundoGit
         {
             MessageBox.Show("Sabia que te mataba la curiosidad","Caíste en la trampa vellaco",MessageBoxButtons.OK,MessageBoxIcon.Question);
         }
+
+        private void VentanaDani_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
