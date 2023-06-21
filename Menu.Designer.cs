@@ -35,6 +35,7 @@
             this.button_Esperanza = new System.Windows.Forms.Button();
             this.btn_Cris = new System.Windows.Forms.Button();
             this.btnGonzalo = new System.Windows.Forms.Button();
+            this.btn_maryure = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_Migue
@@ -102,11 +103,22 @@
             this.btnGonzalo.UseVisualStyleBackColor = false;
             this.btnGonzalo.Click += new System.EventHandler(this.btnGonzalo_Click);
             // 
+            // btn_maryure
+            // 
+            this.btn_maryure.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btn_maryure.Location = new System.Drawing.Point(42, 182);
+            this.btn_maryure.Name = "btn_maryure";
+            this.btn_maryure.Size = new System.Drawing.Size(135, 47);
+            this.btn_maryure.TabIndex = 6;
+            this.btn_maryure.Text = "Maryure";
+            this.btn_maryure.UseVisualStyleBackColor = false;
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn_maryure);
             this.Controls.Add(this.btnGonzalo);
             this.Controls.Add(this.btn_Cris);
             this.Controls.Add(this.button_Esperanza);
@@ -128,6 +140,7 @@
         private System.Windows.Forms.Button button_Esperanza;
         private System.Windows.Forms.Button btn_Cris;
         private System.Windows.Forms.Button btnGonzalo;
+        private System.Windows.Forms.Button btn_maryure;
     }
 }
 
