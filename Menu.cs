@@ -20,6 +20,7 @@ namespace HolaMundoGit
         private void btn_Migue_Click(object sender, EventArgs e)
         {
             VentanaMigue vMigue = new VentanaMigue();
+
             vMigue.Show();
         }
 
