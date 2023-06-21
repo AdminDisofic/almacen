@@ -24,7 +24,9 @@ namespace HolaMundoGit
 
         private void btn_Dani_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("¡Enhorabuena! Acabas de pulsar sobre el botón de Dani", "Congratulations", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            VentanaDani dani = new VentanaDani();
+            dani.Show();
+            this.Hide();
         }
 
         private void btn_Juan_Click(object sender, EventArgs e)
