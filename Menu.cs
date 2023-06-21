@@ -19,7 +19,8 @@ namespace HolaMundoGit
 
         private void btn_Migue_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hola soy Migue", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            VentanaMigue vMigue = new VentanaMigue();
+            vMigue.Show();
         }
 
         private void btn_Dani_Click(object sender, EventArgs e)
