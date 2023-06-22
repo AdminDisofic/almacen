@@ -46,8 +46,8 @@ namespace HolaMundoGit
 
         private void btn_Cris_Click(object sender, EventArgs e)
         {
-            form_Cristi form_Cristi = new form_Cristi(); 
-            form_Cristi.Show();
+            Ventana_Cristi Cristi = new Ventana_Cristi();
+            Cristi.Show();
             this.Hide();
         }
 
