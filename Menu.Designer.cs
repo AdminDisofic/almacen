@@ -35,6 +35,7 @@
             this.button_Esperanza = new System.Windows.Forms.Button();
             this.btn_Cris = new System.Windows.Forms.Button();
             this.btnGonzalo = new System.Windows.Forms.Button();
+            this.btnLorenzo = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_Migue
@@ -103,11 +104,22 @@
             this.btnGonzalo.UseVisualStyleBackColor = false;
             this.btnGonzalo.Click += new System.EventHandler(this.btnGonzalo_Click);
             // 
+            // btnLorenzo
+            // 
+            this.btnLorenzo.Location = new System.Drawing.Point(52, 187);
+            this.btnLorenzo.Name = "btnLorenzo";
+            this.btnLorenzo.Size = new System.Drawing.Size(144, 53);
+            this.btnLorenzo.TabIndex = 6;
+            this.btnLorenzo.Text = "Lorenzo";
+            this.btnLorenzo.UseVisualStyleBackColor = true;
+            this.btnLorenzo.Click += new System.EventHandler(this.btnLorenzo_Click);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnLorenzo);
             this.Controls.Add(this.btnGonzalo);
             this.Controls.Add(this.btn_Cris);
             this.Controls.Add(this.button_Esperanza);
@@ -129,6 +141,7 @@
         private System.Windows.Forms.Button button_Esperanza;
         private System.Windows.Forms.Button btn_Cris;
         private System.Windows.Forms.Button btnGonzalo;
+        private System.Windows.Forms.Button btnLorenzo;
     }
 }
 
