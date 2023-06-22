@@ -30,8 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VentanaJuan));
             this.lbl_formularioJuan = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pb_Juan = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Juan)).BeginInit();
             this.SuspendLayout();
             // 
             // lbl_formularioJuan
@@ -44,26 +44,26 @@
             this.lbl_formularioJuan.TabIndex = 0;
             this.lbl_formularioJuan.Text = "Hola, soy el único Juan";
             // 
-            // pictureBox1
+            // pb_Juan
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(273, 119);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(267, 308);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.pb_Juan.Image = ((System.Drawing.Image)(resources.GetObject("pb_Juan.Image")));
+            this.pb_Juan.Location = new System.Drawing.Point(273, 119);
+            this.pb_Juan.Name = "pb_Juan";
+            this.pb_Juan.Size = new System.Drawing.Size(267, 308);
+            this.pb_Juan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_Juan.TabIndex = 1;
+            this.pb_Juan.TabStop = false;
             // 
             // VentanaJuan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pb_Juan);
             this.Controls.Add(this.lbl_formularioJuan);
             this.Name = "VentanaJuan";
             this.Text = "VentanaJuan";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Juan)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -72,6 +72,6 @@
         #endregion
 
         private System.Windows.Forms.Label lbl_formularioJuan;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pb_Juan;
     }
 }
