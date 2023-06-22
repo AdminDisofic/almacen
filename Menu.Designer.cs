@@ -115,7 +115,7 @@
             this.btnPaco.Size = new System.Drawing.Size(176, 64);
             this.btnPaco.TabIndex = 6;
             this.btnPaco.Text = "Paco";
-            this.btnPaco.UseVisualStyleBackColor = true;
+            this.btnPaco.UseVisualStyleBackColor = false;
             this.btnPaco.Click += new System.EventHandler(this.btnPaco_Click);
             // 
             // Menu
