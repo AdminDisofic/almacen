@@ -19,7 +19,9 @@ namespace HolaMundoGit
 
         private void btn_Migue_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hola soy Migue", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            VentanaMigue vMigue = new VentanaMigue();
+
+            vMigue.Show();
         }
 
         private void btn_Dani_Click(object sender, EventArgs e)
@@ -31,17 +33,22 @@ namespace HolaMundoGit
 
         private void btn_Juan_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hola soy Juan", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            VentanaJuan Juan = new VentanaJuan();
+            Juan.Show();
+            this.Hide();
         }
 
         private void button_Esperanza_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hola soy Esperanza", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            Form_Esperanza Esperanza= new Form_Esperanza();
+            Esperanza.Show();
         }
 
         private void btn_Cris_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hola soy Cristina", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            form_Cristi form_Cristi = new form_Cristi(); 
+            form_Cristi.Show();
+            this.Hide();
         }
 
         private void Menu_Load(object sender, EventArgs e)

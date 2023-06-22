@@ -46,6 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+
+    <Compile Include="Form_Esperanza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Esperanza.Designer.cs">
+      <DependentUpon>Form_Esperanza.cs</DependentUpon>
+
+    </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +68,23 @@
     <Compile Include="VentanaDani.Designer.cs">
       <DependentUpon>VentanaDani.cs</DependentUpon>
     </Compile>
+    <Compile Include="VentanaJuan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaJuan.Designer.cs">
+      <DependentUpon>VentanaJuan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaMigue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaMigue.Designer.cs">
+      <DependentUpon>VentanaMigue.cs</DependentUpon>
+    </Compile>
+
+    <EmbeddedResource Include="Form_Esperanza.resx">
+      <DependentUpon>Form_Esperanza.cs</DependentUpon>
+
+    </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
@@ -71,9 +96,16 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="VentanaDani.resx">
       <DependentUpon>VentanaDani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaJuan.resx">
+      <DependentUpon>VentanaJuan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaMigue.resx">
+      <DependentUpon>VentanaMigue.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -87,6 +119,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estilazo.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
