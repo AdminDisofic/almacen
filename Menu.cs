@@ -60,5 +60,12 @@ namespace HolaMundoGit
         {
             MessageBox.Show("¡Enhorabuena! Acabas de pulsar sobre el botón de Gonzalo", "Congratulations", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
         }
+
+        private void btn_Maryure_Click(object sender, EventArgs e)
+        {
+            Form_Maryure frmMaryure = new Form_Maryure();
+            frmMaryure.Show();
+            this.Hide();
+        }
     }
 }
