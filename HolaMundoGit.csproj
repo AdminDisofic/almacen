@@ -46,13 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-
     <Compile Include="Form_Esperanza.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form_Esperanza.Designer.cs">
       <DependentUpon>Form_Esperanza.cs</DependentUpon>
-
     </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
@@ -80,10 +78,14 @@
     <Compile Include="VentanaMigue.Designer.cs">
       <DependentUpon>VentanaMigue.cs</DependentUpon>
     </Compile>
-
+    <Compile Include="Ventana_Cristi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventana_Cristi.Designer.cs">
+      <DependentUpon>Ventana_Cristi.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form_Esperanza.resx">
       <DependentUpon>Form_Esperanza.cs</DependentUpon>
-
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
@@ -105,6 +107,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="VentanaMigue.resx">
       <DependentUpon>VentanaMigue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventana_Cristi.resx">
+      <DependentUpon>Ventana_Cristi.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
