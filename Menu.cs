@@ -46,7 +46,9 @@ namespace HolaMundoGit
 
         private void btn_Cris_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hola soy Cristina", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            Ventana_Cristi Cristi = new Ventana_Cristi();
+            Cristi.Show();
+            this.Hide();
         }
 
         private void Menu_Load(object sender, EventArgs e)

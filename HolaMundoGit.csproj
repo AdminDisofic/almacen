@@ -78,6 +78,12 @@
     <Compile Include="VentanaMigue.Designer.cs">
       <DependentUpon>VentanaMigue.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ventana_Cristi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventana_Cristi.Designer.cs">
+      <DependentUpon>Ventana_Cristi.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form_Esperanza.resx">
       <DependentUpon>Form_Esperanza.cs</DependentUpon>
     </EmbeddedResource>
@@ -102,6 +108,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="VentanaMigue.resx">
       <DependentUpon>VentanaMigue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventana_Cristi.resx">
+      <DependentUpon>Ventana_Cristi.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
