@@ -31,7 +31,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Esperanza));
             this.label1 = new System.Windows.Forms.Label();
             this.Picture_Box_Esperanza = new System.Windows.Forms.PictureBox();
+            this.DataGridView_Esperanza = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.Picture_Box_Esperanza)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridView_Esperanza)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -49,17 +51,26 @@
             // Picture_Box_Esperanza
             // 
             this.Picture_Box_Esperanza.Image = ((System.Drawing.Image)(resources.GetObject("Picture_Box_Esperanza.Image")));
-            this.Picture_Box_Esperanza.Location = new System.Drawing.Point(493, 238);
+            this.Picture_Box_Esperanza.Location = new System.Drawing.Point(653, 222);
             this.Picture_Box_Esperanza.Name = "Picture_Box_Esperanza";
             this.Picture_Box_Esperanza.Size = new System.Drawing.Size(285, 178);
             this.Picture_Box_Esperanza.TabIndex = 1;
             this.Picture_Box_Esperanza.TabStop = false;
+            // 
+            // DataGridView_Esperanza
+            // 
+            this.DataGridView_Esperanza.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DataGridView_Esperanza.Location = new System.Drawing.Point(367, 234);
+            this.DataGridView_Esperanza.Name = "DataGridView_Esperanza";
+            this.DataGridView_Esperanza.Size = new System.Drawing.Size(240, 150);
+            this.DataGridView_Esperanza.TabIndex = 2;
             // 
             // Form_Esperanza
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1733, 969);
+            this.Controls.Add(this.DataGridView_Esperanza);
             this.Controls.Add(this.Picture_Box_Esperanza);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -67,6 +78,7 @@
             this.Name = "Form_Esperanza";
             this.Text = "Form_Esperanza";
             ((System.ComponentModel.ISupportInitialize)(this.Picture_Box_Esperanza)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridView_Esperanza)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -76,5 +88,6 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox Picture_Box_Esperanza;
+        private System.Windows.Forms.DataGridView DataGridView_Esperanza;
     }
 }
