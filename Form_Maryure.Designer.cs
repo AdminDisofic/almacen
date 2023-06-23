@@ -31,14 +31,16 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Maryure));
             this.lbl_Maryure = new System.Windows.Forms.Label();
             this.pic_Maryure = new System.Windows.Forms.PictureBox();
+            this.dgv_Maryure = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Maryure)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_Maryure)).BeginInit();
             this.SuspendLayout();
             // 
             // lbl_Maryure
             // 
             this.lbl_Maryure.AutoSize = true;
             this.lbl_Maryure.BackColor = System.Drawing.Color.White;
-            this.lbl_Maryure.Location = new System.Drawing.Point(75, 65);
+            this.lbl_Maryure.Location = new System.Drawing.Point(26, 37);
             this.lbl_Maryure.Name = "lbl_Maryure";
             this.lbl_Maryure.Size = new System.Drawing.Size(111, 13);
             this.lbl_Maryure.TabIndex = 0;
@@ -47,23 +49,33 @@
             // pic_Maryure
             // 
             this.pic_Maryure.Image = ((System.Drawing.Image)(resources.GetObject("pic_Maryure.Image")));
-            this.pic_Maryure.Location = new System.Drawing.Point(247, 70);
+            this.pic_Maryure.Location = new System.Drawing.Point(156, 37);
             this.pic_Maryure.Name = "pic_Maryure";
             this.pic_Maryure.Size = new System.Drawing.Size(294, 208);
             this.pic_Maryure.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pic_Maryure.TabIndex = 1;
             this.pic_Maryure.TabStop = false;
             // 
+            // dgv_Maryure
+            // 
+            this.dgv_Maryure.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_Maryure.Location = new System.Drawing.Point(469, 37);
+            this.dgv_Maryure.Name = "dgv_Maryure";
+            this.dgv_Maryure.Size = new System.Drawing.Size(298, 208);
+            this.dgv_Maryure.TabIndex = 2;
+            // 
             // Form_Maryure
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.dgv_Maryure);
             this.Controls.Add(this.pic_Maryure);
             this.Controls.Add(this.lbl_Maryure);
             this.Name = "Form_Maryure";
             this.Text = "Form_Maryure";
             ((System.ComponentModel.ISupportInitialize)(this.pic_Maryure)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_Maryure)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -73,5 +85,6 @@
 
         private System.Windows.Forms.Label lbl_Maryure;
         private System.Windows.Forms.PictureBox pic_Maryure;
+        private System.Windows.Forms.DataGridView dgv_Maryure;
     }
 }
