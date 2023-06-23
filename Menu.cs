@@ -58,7 +58,9 @@ namespace HolaMundoGit
 
         private void btnGonzalo_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("¡Enhorabuena! Acabas de pulsar sobre el botón de Gonzalo", "Congratulations", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            frmGonzalo gonzalo = new frmGonzalo();
+            gonzalo.Show();
+            this.Hide();
         }
 
         private void btnLorenzo_Click(object sender, EventArgs e)
