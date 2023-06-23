@@ -137,5 +137,8 @@
   <ItemGroup>
     <None Include="Resources\Estilazo.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10_Claves_Braco_Aleman_G.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
